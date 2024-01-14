@@ -15,6 +15,8 @@
 		C8A7C6682B5488FE00061C32 /* UpgradeYourMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7C6672B5488FE00061C32 /* UpgradeYourMacTests.swift */; };
 		C8A7C6722B5488FE00061C32 /* UpgradeYourMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7C6712B5488FE00061C32 /* UpgradeYourMacUITests.swift */; };
 		C8A7C6742B5488FE00061C32 /* UpgradeYourMacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7C6732B5488FE00061C32 /* UpgradeYourMacUITestsLaunchTests.swift */; };
+		C8A7C6812B548A7D00061C32 /* BuildWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7C6802B548A7D00061C32 /* BuildWatcher.swift */; };
+		C8A7C6832B5490C400061C32 /* BuildManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7C6822B5490C400061C32 /* BuildManifest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C8A7C66D2B5488FE00061C32 /* UpgradeYourMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpgradeYourMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A7C6712B5488FE00061C32 /* UpgradeYourMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeYourMacUITests.swift; sourceTree = "<group>"; };
 		C8A7C6732B5488FE00061C32 /* UpgradeYourMacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeYourMacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8A7C6802B548A7D00061C32 /* BuildWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildWatcher.swift; sourceTree = "<group>"; };
+		C8A7C6822B5490C400061C32 /* BuildManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildManifest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				C8A7C6532B5488FC00061C32 /* UpgradeYourMacApp.swift */,
+				C8A7C6802B548A7D00061C32 /* BuildWatcher.swift */,
+				C8A7C6822B5490C400061C32 /* BuildManifest.swift */,
 				C8A7C6552B5488FC00061C32 /* ContentView.swift */,
 				C8A7C6572B5488FC00061C32 /* Item.swift */,
 				C8A7C6592B5488FD00061C32 /* Assets.xcassets */,
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A7C6832B5490C400061C32 /* BuildManifest.swift in Sources */,
 				C8A7C6562B5488FC00061C32 /* ContentView.swift in Sources */,
 				C8A7C6582B5488FC00061C32 /* Item.swift in Sources */,
 				C8A7C6542B5488FC00061C32 /* UpgradeYourMacApp.swift in Sources */,
+				C8A7C6812B548A7D00061C32 /* BuildWatcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
