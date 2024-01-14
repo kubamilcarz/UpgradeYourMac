@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8A7C6542B5488FC00061C32 /* UpgradeYourMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7C6532B5488FC00061C32 /* UpgradeYourMacApp.swift */; };
+		C8A7C6562B5488FC00061C32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7C6552B5488FC00061C32 /* ContentView.swift */; };
+		C8A7C6582B5488FC00061C32 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7C6572B5488FC00061C32 /* Item.swift */; };
+		C8A7C65A2B5488FD00061C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A7C6592B5488FD00061C32 /* Assets.xcassets */; };
+		C8A7C65D2B5488FD00061C32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A7C65C2B5488FD00061C32 /* Preview Assets.xcassets */; };
+		C8A7C6682B5488FE00061C32 /* UpgradeYourMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7C6672B5488FE00061C32 /* UpgradeYourMacTests.swift */; };
+		C8A7C6722B5488FE00061C32 /* UpgradeYourMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7C6712B5488FE00061C32 /* UpgradeYourMacUITests.swift */; };
+		C8A7C6742B5488FE00061C32 /* UpgradeYourMacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7C6732B5488FE00061C32 /* UpgradeYourMacUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8A7C6642B5488FE00061C32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A7C6482B5488FC00061C32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A7C64F2B5488FC00061C32;
+			remoteInfo = UpgradeYourMac;
+		};
+		C8A7C66E2B5488FE00061C32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A7C6482B5488FC00061C32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A7C64F2B5488FC00061C32;
+			remoteInfo = UpgradeYourMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8A7C6502B5488FC00061C32 /* UpgradeYourMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpgradeYourMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A7C6532B5488FC00061C32 /* UpgradeYourMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeYourMacApp.swift; sourceTree = "<group>"; };
+		C8A7C6552B5488FC00061C32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8A7C6572B5488FC00061C32 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C8A7C6592B5488FD00061C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8A7C65C2B5488FD00061C32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8A7C65E2B5488FD00061C32 /* UpgradeYourMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UpgradeYourMac.entitlements; sourceTree = "<group>"; };
+		C8A7C6632B5488FE00061C32 /* UpgradeYourMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpgradeYourMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A7C6672B5488FE00061C32 /* UpgradeYourMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeYourMacTests.swift; sourceTree = "<group>"; };
+		C8A7C66D2B5488FE00061C32 /* UpgradeYourMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpgradeYourMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A7C6712B5488FE00061C32 /* UpgradeYourMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeYourMacUITests.swift; sourceTree = "<group>"; };
+		C8A7C6732B5488FE00061C32 /* UpgradeYourMacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeYourMacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8A7C64D2B5488FC00061C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A7C6602B5488FE00061C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A7C66A2B5488FE00061C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8A7C6472B5488FC00061C32 = {
+			isa = PBXGroup;
+			children = (
+				C8A7C6522B5488FC00061C32 /* UpgradeYourMac */,
+				C8A7C6662B5488FE00061C32 /* UpgradeYourMacTests */,
+				C8A7C6702B5488FE00061C32 /* UpgradeYourMacUITests */,
+				C8A7C6512B5488FC00061C32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8A7C6512B5488FC00061C32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8A7C6502B5488FC00061C32 /* UpgradeYourMac.app */,
+				C8A7C6632B5488FE00061C32 /* UpgradeYourMacTests.xctest */,
+				C8A7C66D2B5488FE00061C32 /* UpgradeYourMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8A7C6522B5488FC00061C32 /* UpgradeYourMac */ = {
+			isa = PBXGroup;
+			children = (
+				C8A7C6532B5488FC00061C32 /* UpgradeYourMacApp.swift */,
+				C8A7C6552B5488FC00061C32 /* ContentView.swift */,
+				C8A7C6572B5488FC00061C32 /* Item.swift */,
+				C8A7C6592B5488FD00061C32 /* Assets.xcassets */,
+				C8A7C65E2B5488FD00061C32 /* UpgradeYourMac.entitlements */,
+				C8A7C65B2B5488FD00061C32 /* Preview Content */,
+			);
+			path = UpgradeYourMac;
+			sourceTree = "<group>";
+		};
+		C8A7C65B2B5488FD00061C32 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8A7C65C2B5488FD00061C32 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8A7C6662B5488FE00061C32 /* UpgradeYourMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8A7C6672B5488FE00061C32 /* UpgradeYourMacTests.swift */,
+			);
+			path = UpgradeYourMacTests;
+			sourceTree = "<group>";
+		};
+		C8A7C6702B5488FE00061C32 /* UpgradeYourMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8A7C6712B5488FE00061C32 /* UpgradeYourMacUITests.swift */,
+				C8A7C6732B5488FE00061C32 /* UpgradeYourMacUITestsLaunchTests.swift */,
+			);
+			path = UpgradeYourMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8A7C64F2B5488FC00061C32 /* UpgradeYourMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A7C6772B5488FE00061C32 /* Build configuration list for PBXNativeTarget "UpgradeYourMac" */;
+			buildPhases = (
+				C8A7C64C2B5488FC00061C32 /* Sources */,
+				C8A7C64D2B5488FC00061C32 /* Frameworks */,
+				C8A7C64E2B5488FC00061C32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UpgradeYourMac;
+			productName = UpgradeYourMac;
+			productReference = C8A7C6502B5488FC00061C32 /* UpgradeYourMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8A7C6622B5488FE00061C32 /* UpgradeYourMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A7C67A2B5488FE00061C32 /* Build configuration list for PBXNativeTarget "UpgradeYourMacTests" */;
+			buildPhases = (
+				C8A7C65F2B5488FE00061C32 /* Sources */,
+				C8A7C6602B5488FE00061C32 /* Frameworks */,
+				C8A7C6612B5488FE00061C32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8A7C6652B5488FE00061C32 /* PBXTargetDependency */,
+			);
+			name = UpgradeYourMacTests;
+			productName = UpgradeYourMacTests;
+			productReference = C8A7C6632B5488FE00061C32 /* UpgradeYourMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8A7C66C2B5488FE00061C32 /* UpgradeYourMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A7C67D2B5488FE00061C32 /* Build configuration list for PBXNativeTarget "UpgradeYourMacUITests" */;
+			buildPhases = (
+				C8A7C6692B5488FE00061C32 /* Sources */,
+				C8A7C66A2B5488FE00061C32 /* Frameworks */,
+				C8A7C66B2B5488FE00061C32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8A7C66F2B5488FE00061C32 /* PBXTargetDependency */,
+			);
+			name = UpgradeYourMacUITests;
+			productName = UpgradeYourMacUITests;
+			productReference = C8A7C66D2B5488FE00061C32 /* UpgradeYourMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8A7C6482B5488FC00061C32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C8A7C64F2B5488FC00061C32 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C8A7C6622B5488FE00061C32 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C8A7C64F2B5488FC00061C32;
+					};
+					C8A7C66C2B5488FE00061C32 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C8A7C64F2B5488FC00061C32;
+					};
+				};
+			};
+			buildConfigurationList = C8A7C64B2B5488FC00061C32 /* Build configuration list for PBXProject "UpgradeYourMac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8A7C6472B5488FC00061C32;
+			productRefGroup = C8A7C6512B5488FC00061C32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8A7C64F2B5488FC00061C32 /* UpgradeYourMac */,
+				C8A7C6622B5488FE00061C32 /* UpgradeYourMacTests */,
+				C8A7C66C2B5488FE00061C32 /* UpgradeYourMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8A7C64E2B5488FC00061C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A7C65D2B5488FD00061C32 /* Preview Assets.xcassets in Resources */,
+				C8A7C65A2B5488FD00061C32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A7C6612B5488FE00061C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A7C66B2B5488FE00061C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8A7C64C2B5488FC00061C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A7C6562B5488FC00061C32 /* ContentView.swift in Sources */,
+				C8A7C6582B5488FC00061C32 /* Item.swift in Sources */,
+				C8A7C6542B5488FC00061C32 /* UpgradeYourMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A7C65F2B5488FE00061C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A7C6682B5488FE00061C32 /* UpgradeYourMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A7C6692B5488FE00061C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A7C6742B5488FE00061C32 /* UpgradeYourMacUITestsLaunchTests.swift in Sources */,
+				C8A7C6722B5488FE00061C32 /* UpgradeYourMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8A7C6652B5488FE00061C32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A7C64F2B5488FC00061C32 /* UpgradeYourMac */;
+			targetProxy = C8A7C6642B5488FE00061C32 /* PBXContainerItemProxy */;
+		};
+		C8A7C66F2B5488FE00061C32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A7C64F2B5488FC00061C32 /* UpgradeYourMac */;
+			targetProxy = C8A7C66E2B5488FE00061C32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8A7C6752B5488FE00061C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8A7C6762B5488FE00061C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C8A7C6782B5488FE00061C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UpgradeYourMac/UpgradeYourMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UpgradeYourMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AGNJTPT6V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kubamilcarz.UpgradeYourMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C8A7C6792B5488FE00061C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UpgradeYourMac/UpgradeYourMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UpgradeYourMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AGNJTPT6V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kubamilcarz.UpgradeYourMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C8A7C67B2B5488FE00061C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AGNJTPT6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kubamilcarz.UpgradeYourMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpgradeYourMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpgradeYourMac";
+			};
+			name = Debug;
+		};
+		C8A7C67C2B5488FE00061C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AGNJTPT6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kubamilcarz.UpgradeYourMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpgradeYourMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpgradeYourMac";
+			};
+			name = Release;
+		};
+		C8A7C67E2B5488FE00061C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AGNJTPT6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kubamilcarz.UpgradeYourMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UpgradeYourMac;
+			};
+			name = Debug;
+		};
+		C8A7C67F2B5488FE00061C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AGNJTPT6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kubamilcarz.UpgradeYourMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UpgradeYourMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8A7C64B2B5488FC00061C32 /* Build configuration list for PBXProject "UpgradeYourMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A7C6752B5488FE00061C32 /* Debug */,
+				C8A7C6762B5488FE00061C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A7C6772B5488FE00061C32 /* Build configuration list for PBXNativeTarget "UpgradeYourMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A7C6782B5488FE00061C32 /* Debug */,
+				C8A7C6792B5488FE00061C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A7C67A2B5488FE00061C32 /* Build configuration list for PBXNativeTarget "UpgradeYourMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A7C67B2B5488FE00061C32 /* Debug */,
+				C8A7C67C2B5488FE00061C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A7C67D2B5488FE00061C32 /* Build configuration list for PBXNativeTarget "UpgradeYourMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A7C67E2B5488FE00061C32 /* Debug */,
+				C8A7C67F2B5488FE00061C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8A7C6482B5488FC00061C32 /* Project object */;
+}
