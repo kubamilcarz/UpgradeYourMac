@@ -13,7 +13,7 @@ struct BuildManifest: Codable {
 }
 
 @Model
-class BuildLog: Codable {
+class BuildLog: Codable, Comparable {
     enum CodingKeys: String, CodingKey {
         case title, timeStartedRecording, timeStoppedRecording
     }
@@ -31,6 +31,13 @@ class BuildLog: Codable {
     }
     
     
+    init(title: String, timeStartedRecording: Double, timeStoppedRecording: Double) {
+        self.title = title
+        self.timeStartedRecording = timeStartedRecording
+        self.timeStoppedRecording = timeStoppedRecording
+    }
+    
+    
     required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.title = try container.decode(String.self, forKey: .title)
@@ -43,5 +50,10 @@ class BuildLog: Codable {
         try container.encode(self.title, forKey: .title)
         try container.encode(self.timeStartedRecording, forKey: .timeStartedRecording)
         try container.encode(self.timeStoppedRecording, forKey: .timeStoppedRecording)
+    }
+    
+    
+    static func <(lhs: BuildLog, rhs: BuildLog) -> Bool {
+        lhs.timeStartedRecording < rhs.timeStartedRecording
     }
 }

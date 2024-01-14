@@ -34,7 +34,7 @@ class BuildWatcher {
     }
     
     
-    func performScan(firstRun: Bool = false) throws {
+    func performScan(firstRun: Bool = false) throws {        
         let urls = try FileManager.default.contentsOfDirectory(at: url, includingPropertiesForKeys: [.contentModificationDateKey])
         
         var newURLs = Set<DirectoryChange>()
@@ -63,7 +63,17 @@ class BuildWatcher {
         let changedDirectories = newDirectories.subtracting(contents)
         
         for changedDirectory in changedDirectories {
-            print("\(changedDirectory.url) changed!")
+            if let data = try? Data(contentsOf: changedDirectory.url) {
+                let decoder = PropertyListDecoder()
+                
+                if let decoded = try? decoder.decode(BuildManifest.self, from: data) {
+                    if let log = decoded.logs.values.max() {
+                        print("\(log.title) took \(log.timeTaken) seconds.")
+                    }
+                } else {
+                    print("Decoding failed.")
+                }
+            }
         }
     }
 }
