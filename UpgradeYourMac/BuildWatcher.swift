@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftData
 
 class BuildWatcher {
     struct DirectoryChange: Hashable {
@@ -17,6 +18,8 @@ class BuildWatcher {
     
     var contents = Set<DirectoryChange>()
     var timer = Timer()
+    
+    var modelContext: ModelContext?
     
     
     init() {
@@ -68,7 +71,7 @@ class BuildWatcher {
                 
                 if let decoded = try? decoder.decode(BuildManifest.self, from: data) {
                     if let log = decoded.logs.values.max() {
-                        print("\(log.title) took \(log.timeTaken) seconds.")
+                        modelContext?.insert(log)
                     }
                 } else {
                     print("Decoding failed.")
